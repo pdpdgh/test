@@ -23,7 +23,7 @@ CD /D "%~dp0"
 call git init
 call git add .
 call git commit -a -m 'initial'
-call git remote add origin https://gitee.com/pdpdmy/dark-slash
+call git remote add origin https://gitee.com/pdpdmy/test
 call git push -u origin master --force
 
 pause
